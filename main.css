@@ -3,7 +3,20 @@
 }
 
 .main__image {
-  width: 300px;
+  width: 500px;
   height: 400px;
   margin: 10px 10px;
+}
+
+@media (width: 500px) {
+  .main__image {
+    width: 1000px;
+    height: 1000px;
+  }
+}
+@media (width: 500px) {
+  .main__image {
+    width: 100px;
+    height: 160px;
+  }
 }

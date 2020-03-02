@@ -59,3 +59,53 @@
   background-color: purple;
   color: #ffffff;
 }
+
+@media (width: 500px) {
+  #menu__btn-red,
+  #menu__btn-orange,
+  #menu__btn-yellow,
+  #menu__btn-green,
+  #menu__btn-blue,
+  #menu__btn-indigo,
+  #menu__btn-purple {
+    all: unset;
+    cursor: pointer;
+    padding: 3px 0px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.18);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+  }
+  #menu__btn-red {
+    background-color: red;
+    color: #ffffff;
+  }
+  #menu__btn-orange {
+    background-color: orange;
+    color: #ffffff;
+  }
+  #menu__btn-yellow {
+    background-color: yellow;
+    color: #ffffff;
+  }
+  #menu__btn-green {
+    background-color: green;
+    color: #ffffff;
+  }
+  #menu__btn-blue {
+    background-color: blue;
+    color: #ffffff;
+  }
+  #menu__btn-indigo {
+    background-color: indigo;
+    color: #ffffff;
+  }
+  #menu__btn-purple {
+    background-color: purple;
+    color: #ffffff;
+  }
+}
