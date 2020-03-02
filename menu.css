@@ -1,35 +1,61 @@
 .menu {
   height: 45px;
-  background-color: yellow;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .menu__bar {
-  width: 800px;
   height: 50px;
   margin-top: 10px;
 }
 
-#menu__btn-funny,
-#menu__btn-gloomy,
-#menu__btn-happy,
-#menu__btn-sad,
-#menu__btn-angry,
-#menu__btn-genial,
-#menu__btn-bored {
+#menu__btn-red,
+#menu__btn-orange,
+#menu__btn-yellow,
+#menu__btn-green,
+#menu__btn-blue,
+#menu__btn-indigo,
+#menu__btn-purple {
   all: unset;
   cursor: pointer;
-  background-color: white;
   padding: 3px 0px;
   width: 80px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 4px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.18);
   border: 2px solid rgba(0, 0, 0, 0.2);
-  color: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
   font-weight: 800;
   font-size: 12px;
+}
+
+#menu__btn-red {
+  background-color: red;
+  color: #ffffff;
+}
+#menu__btn-orange {
+  background-color: orange;
+  color: #ffffff;
+}
+#menu__btn-yellow {
+  background-color: yellow;
+  color: #ffffff;
+}
+#menu__btn-green {
+  background-color: green;
+  color: #ffffff;
+}
+#menu__btn-blue {
+  background-color: blue;
+  color: #ffffff;
+}
+#menu__btn-indigo {
+  background-color: indigo;
+  color: #ffffff;
+}
+#menu__btn-purple {
+  background-color: purple;
+  color: #ffffff;
 }
